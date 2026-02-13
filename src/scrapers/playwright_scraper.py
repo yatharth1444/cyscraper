@@ -1,9 +1,6 @@
 """
 Patchright Scraper Module
 
-This module provides a robust web scraping implementation using Patchright
-(undetected Playwright fork). It supports advanced features like stealth mode,
-human simulation, CAPTCHA handling, and cloudflare bypassing.
 """
 
 from typing import Any, Dict, List, Optional

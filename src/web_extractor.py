@@ -177,7 +177,7 @@ You help users scrape and extract data from websites. Currently, no URL has been
 
 Respond to the user's message naturally. If they're greeting you or chatting, chat back! Guide them to provide a URL when appropriate so you can start scraping.
 
-CyberScraper-2077:
+cyscraper:
 {history_text}
 
 User: {query}"""

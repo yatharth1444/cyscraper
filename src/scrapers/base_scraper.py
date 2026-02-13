@@ -1,8 +1,6 @@
 """
 Base Scraper Module
 
-Defines the abstract base class for all scrapers in the CyberScraper-2077 project.
-All scraper implementations should inherit from BaseScraper and implement its abstract methods.
 """
 
 from abc import ABC, abstractmethod

@@ -1,5 +1,5 @@
 """
-CyberScraper-2077 Scrapers Module
+Cyscraper Module
 
 This module provides the PlaywrightScraper for advanced web scraping with anti-detection features.
 """

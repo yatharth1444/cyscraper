@@ -1,92 +1,63 @@
-# Security Policy
+## 🔐 Security
 
-## Supported Versions
+Security is an important part of **cyscraper**.  
+If you discover a vulnerability, please report it responsibly and privately.
 
-CyberScraper 2077 currently maintains security updates for the following versions:
+### Reporting a Vulnerability
 
-| Version | Supported          | Notes |
-| ------- | ------------------ | ----- |
-| 3.0.x   | :white_check_mark: | Current stable release with more features |
-| 2.0.x   | :white_check_mark: | Works perfectly, no onion routing |
-| 1.0.x   | :x:                | End of life |
-| < 1.0   | :x:                | Legacy versions - no longer supported |
+Please **do NOT open a public GitHub issue** for security problems.
 
-## Security Features
+Instead, report privately via email:
 
-CyberScraper 2077 implements several security measures:
+**Email:** yatharthsingh1444@gmail.com
 
-- Stealth mode parameters to avoid detection
-- Proxy support for anonymous scraping (pending)
-- Rate limiting to prevent server overload
-- Secure API key handling
-- OAuth 2.0 implementation for Google Sheets integration
-- Onion Routing for onion links
+Include the following details:
+- Description of the vulnerability
+- Steps to reproduce
+- Potential impact
+- Suggested fix (optional)
 
-## Reporting a Vulnerability
+Responsible private reporting allows vulnerabilities to be fixed before public disclosure and helps protect users. :contentReference[oaicite:0]{index=0}
 
-We take security vulnerabilities seriously. If you discover a security issue, please follow these steps:
+---
 
-1. **DO NOT** open a public GitHub issue.
+### Supported Versions
 
-2. Send a detailed report to [owensingh72@gmail.com](mailto:owensingh72@gmail.com) with:
-   - Description of the vulnerability
-   - Steps to reproduce
-   - Potential impact
-   - Suggested fix (if any)
+Security updates are provided for:
+- Latest stable release
+- Recently maintained versions
 
-3. **Response Time**: 
-   - Initial response: Within 48 hours
-   - Status update: Every 72 hours until resolution
-   - Resolution timeline: Typically within 2 weeks
 
-4. **What to Expect**:
-   - Acknowledgment of your report
-   - Regular updates on the progress
-   - Credit in the security advisory (unless you prefer to remain anonymous)
-   - Notification when the fix is deployed
+---
 
-## Security Best Practices
+### Best Practices
 
-When using CyberScraper 2077:
+When using cyscraper:
 
-1. **API Keys**:
-   - Store API keys in environment variables
-   - Never commit API keys to version control
-   - Rotate keys regularly
+- Store API keys in environment variables  
+- Never commit secrets to version control  
+- Respect rate limits while scraping  
+- Use trusted proxies only  
+- Keep the tool updated to the latest version  
 
-2. **Rate Limiting**:
-   - Respect the default rate limits
-   - Adjust scraping delays based on target website requirements
-   - Use the built-in retry mechanisms
+---
 
-3. **Proxy Usage** (pending):
-   - Use trusted proxy services
-   - Rotate proxies for large-scale scraping
-   - Monitor proxy health and reliability
+### Disclosure Policy
 
-4. **Data Handling**:
-   - Encrypt sensitive scraped data
-   - Clean up temporary files
-   - Follow data protection regulations (GDPR, CCPA, etc.)
+This project follows responsible disclosure:
 
-## Security Updates
+1. Report vulnerabilities privately  
+2. Allow time for investigation and patching  
+3. Public disclosure after a fix is released  
 
-- Security patches are released as soon as vulnerabilities are fixed
-- Updates are announced through GitHub releases
-- Critical updates are flagged in the documentation
-- Release notes include detailed security impact information
+Coordinated disclosure helps maintainers and researchers fix issues safely without exposing users to risk. :contentReference[oaicite:1]{index=1}
 
-## Responsible Disclosure
+---
 
-We follow responsible disclosure practices:
+### Security Updates
 
-1. Report the vulnerability privately
-2. Allow us time to fix the issue
-3. We'll acknowledge your contribution
-4. Public disclosure after the fix is deployed
+Security fixes are released through:
+- GitHub releases
+- Patch updates
 
-## Bug Bounty Program
-
-Currently, we don't have a formal bug bounty program, but we do recognize and credit security researchers who report vulnerabilities responsibly.
-
-Remember: In Night City, security isn't just a feature – it's a way of life. Stay safe, choombas.
+Users are encouraged to update regularly to stay protected.
